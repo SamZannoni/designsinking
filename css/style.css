@@ -1,0 +1,125 @@
+html,
+body {
+    background-color: rgba(0, 0, 25, 1);
+    margin: 0 auto;
+}
+
+
+input.pw{
+  -webkit-text-security: disc;
+}
+
+
+#lockScreen{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 25, 1);
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+#entryMdp {
+  color: fuchsia;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  text-align: center;
+  top: 20%;
+  position: relative;
+  height: 100px;
+  border: solid fuchsia;
+  padding: 10px;
+}
+
+#mdp{
+  margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 200px;
+height: 10px;
+display: block;
+top: 20%;
+}
+
+#Titre {
+    width: 100vw;
+    font-size: 200px;
+    position: absolute;
+    color: blue;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    letter-spacing: 70vw;
+}
+
+#Back {
+    width: 10000px;
+    height: 10000px;
+    position: absolute;
+}
+
+#star1 {
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    color: fuchsia;
+}
+
+#chaton {
+    width: 500px;
+    left: 100px;
+    top: 300px;
+    position: absolute;
+}
+
+#childcrying {
+    width: 600px;
+}
+
+#corporate {
+    width: 500px;
+}
+
+#domore {
+    width: 450px;
+}
+
+#trash {
+    width: 200px;
+}
+
+#lastcall {
+    width: 300px;
+}
+
+#samsad {
+    width: 150px;
+}
+
+#throwingup {
+    width: 150px;
+}
+
+#darkhackingcat {
+    width: 550px;
+}
+
+#Helo {}
+
+.imgs {
+    max-height: 650px;
+    position: absolute;
+}
+
+.stars {
+    color: fuchsia;
+    position: absolute;
+    z-index: 2;
+}
+
+.stars2 {
+  z-index: 2;
+    color: fuchsia;
+    position: absolute;
+    font-size: 35px;
+}
