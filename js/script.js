@@ -32,6 +32,7 @@ function setup() {
     moveAllStars();
     if (compteurOpacity <= 0){
       clearInterval(myInterval);
+        lockScreen.style.display = "none";
     }
   }
 
